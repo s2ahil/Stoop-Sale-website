@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Front from './components/Front';
-import Invitation from './pages/invitation';
+import Invitation from './pages/Invitation';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   const [count, setCount] = useState(0)
